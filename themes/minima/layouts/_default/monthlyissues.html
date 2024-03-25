@@ -5,7 +5,7 @@
 
 
 <h1>Monthly Issues</h1>
-{{ range .Pages.GroupByDate "2006" }}
+{{ range .Pages.GroupByDate "2006"}}
   <h2>{{ .Key }}</h2>
   <div class="grid-container">
     {{ range .Pages.ByTitle }}

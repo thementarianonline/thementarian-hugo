@@ -289,30 +289,6 @@
      color: white;
  }
  
- .site-nav .page-link {
-     color: white;
-     line-height: 1.5;
-     text-transform: uppercase;
- }
- 
- .site-header {
-     background-color: #1C4587;
-     border: 0;
-     color: white;
- }
- 
- .site-header {
-   position: sticky;
-   width: 100%;
-   top: 0;
-   z-index: 10;
- }
- 
- .site-title, .site-title:visited {
-     color: white;
-     font-weight: bold;
- }
- 
  .site-footer {
      background-color: #F1C232;
  }
