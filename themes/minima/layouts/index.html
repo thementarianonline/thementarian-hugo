@@ -6,7 +6,7 @@
         <h2>Latest posts</h2>
         <ul class="post-ul">
             {{range where .Site.RegularPages "Type" "posts"}}
-                <li class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                <li class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{end}}
         </ul>
     </div>
