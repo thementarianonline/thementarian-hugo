@@ -1,0 +1,33 @@
+
+{{ define "main" }}
+
+<div class="flex-container">
+
+    <div class="latest-posts">
+        <h2>Latest posts</h2>
+        <ul class="post-ul">
+            {{range where .Site.RegularPages "Type" "posts"}}
+                <li class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{end}}
+        </ul>
+    </div>
+
+    <div class="latest-issue">
+        {{range first 1 (where .Site.RegularPages "Type" "monthlyissues") }}
+            <h2 class="monthly-issue">Latest issue: <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+            <div class="monthly-issue-page">
+                <a href="{{ .Permalink}}">
+                    {{ with .Resources.ByType "image" }}
+                        {{range first 1 (.) }}
+                            <img src="{{ .RelPermalink }}">
+                        {{ end }}
+        
+                    {{ end }}
+                </a>
+            </div>
+        {{end}}
+    </div>
+    
+</div>
+{{ end }}
