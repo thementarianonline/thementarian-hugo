@@ -11,7 +11,7 @@
     {{ range .Pages.ByTitle }}
     
     <div class="grid-items">
-        <a href="{{.Permalink}}">
+        <a href="{{.RelPermalink}}">
             {{ with .Resources.ByType "image" }}
                 {{range first 1 (.) }}
                     <img src="{{ .RelPermalink }}">
