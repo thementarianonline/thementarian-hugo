@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $styles := resources.Get "css/post.css" }}
+
   <h1>{{ .Title }}</h1>
 
   <p>Written by {{.Params.author}} | {{ time.Format "2 January 2006" .Date }}</p>
