@@ -5,10 +5,10 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
+
+{{ partial "header.html" . }}
+
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
   <main>
     <div class="container">
       {{ block "main" . }}{{ end }}
