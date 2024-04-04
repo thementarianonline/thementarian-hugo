@@ -2,8 +2,9 @@
 title = "MISCUP 2023 Recap"
 date = 2024-01-15
 author = "THE EDITORIAL BOARD"
-categories = ["school"]
-url = "/posts/{{categories}}/{{title}}"
+categories = "school"
+url = "/posts/miscup2023"
+description = "The Student Council of AY2023-2024 hosts the MISCUP over three separate days at each Mentari campus."
 +++
 
 MISCUP is an internal athletic and intellectual contest open to all students and held between the three Mentari Schools, MISJ (Jakarta), MISB (Bintaro), and MISGS (Grand Surya). MISCUP was split over three separate days at each campus taking place on the 14th, 15th, and 28th of October, ensuring each campus received an equal share in hosting the games.

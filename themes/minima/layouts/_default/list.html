@@ -1,8 +1,20 @@
 {{ define "main" }}
+
+{{ $styles := resources.Get "css/posts.css" }}
+
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<div>
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+  <ul>
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+    <li class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    <li>{{ upper .Page.Params.categories}} | {{ time.Format "2 January 2006" .Date }}</li>
+    <p class="description">{{.Page.Params.description }}</p>
   {{ end }}
+  </ul>
+
+</div>
+
 {{ end }}

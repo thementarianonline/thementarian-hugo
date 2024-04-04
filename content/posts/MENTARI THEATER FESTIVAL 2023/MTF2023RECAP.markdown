@@ -2,9 +2,11 @@
 title = "Mentari Theater Festival 2023 Recap"
 date = 2024-01-16
 author = "Jacobus Kurnia Kaalapaking"
-categories = ["school"]
+categories = "school"
 url = "/posts/mentaritheaterfestival2023"
+description = "On 5 December 2023, Batch 15 presents the Mentari Theater Festival as a charity event for Sanggar Anak Kita."
 +++
+
 2023 has been a year full of surprises for all us Mentarians. Closing this year with a bang was the inaugural
 Mentari Theater Festival or MTF, run by sour very own Batch 15 and the English teaching faculty. In accordance with the holiday spirit and Mentarian values, the festival was a charity event where all proceeds went to the charity Sanggar Anak Kita. Held on 5 December 2023, members of The Mentarian staff, including yours truly, were granted the once-in-a-lifetime opportunity to watch the first performance of the Mentari Theater Club through a series of 10-15 minute plays, each separated into two sets, Set A, which opened the night with the plays Innocence, Querencia, and The Death of a Breadwinner, and Set B, which included #FreeSelina, The Main Character, and finally Eilata 3000, closing the night as the 6th play of the festival.
 
