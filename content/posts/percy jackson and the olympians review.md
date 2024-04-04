@@ -1,5 +1,5 @@
 +++
-title = "Percy Jackson and the Olympians TV Series Review"
+title = "'Percy Jackson and the Olympians' TV Series Review"
 date = 2024-04-04
 author = "Aina"
 categories = "feature"
