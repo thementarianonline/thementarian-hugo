@@ -1,0 +1,25 @@
+name: Create A Post
+# This workflow is triggered on pushes to the repository.
+on: workflow_dispatch
+
+jobs:
+  createFile:
+    name: Create A Post
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: 1arp/create-a-file-action@0.4.5
+        with:
+          path: '/content/posts/new-post'
+          isAbsolutePath: false
+          file: 'new-post.markdown'
+          content: |
+            +++
+            title = ""
+            date =
+            author = ""
+            categories = ""
+            url = ""
+            description = ""
+            draft: true
+            +++
