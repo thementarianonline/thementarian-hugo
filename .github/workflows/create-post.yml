@@ -7,19 +7,6 @@ jobs:
     name: Create A Post
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: 1arp/create-a-file-action@0.4.5
-        with:
-          path: '/content/posts/new-post'
-          isAbsolutePath: false
-          file: 'new-post.markdown'
-          content: |
-            +++
-            title = ""
-            date =
-            author = ""
-            categories = ""
-            url = ""
-            description = ""
-            draft: true
-            +++
+      - uses: actions/checkout@v4
+      - run: mkdir /content/posts/new_folder
+      - run: touch new.markdown
