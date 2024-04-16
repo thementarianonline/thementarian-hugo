@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: mkdir /content/posts/new_folder
+      - run: mkdir /content/posts/
       - run: touch new.markdown
