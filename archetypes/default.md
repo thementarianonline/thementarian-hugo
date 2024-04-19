@@ -1,8 +1,7 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
+date = {{ time.Format "2 January 2006" .Date }}
 author = "name"
-draft = true
 categories = [""]
 slug = "{{ replace .File.ContentBaseName "-" " " | title }}"
 +++
