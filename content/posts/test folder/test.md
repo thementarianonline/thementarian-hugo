@@ -9,7 +9,8 @@ draft = true
 +++
 
 Yeah I'll add some images later.
-![enter image description here](test.jpg)
+![enter image description here](i-love-you.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzE2MTA3NSwtNDEwODI3NzU1XX0=
+eyJoaXN0b3J5IjpbODk4ODAyOTQzLC00MTA4Mjc3NTVdfQ==
 -->
