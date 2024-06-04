@@ -1,0 +1,27 @@
+{{define "main"}}
+{{ $styles := resources.Get "css/weeklyissue.css" }}
+
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<h1>{{.Title}}</h1>
+
+<div class="grid-container">
+
+    {{range .Pages }}
+    <div class="grid-item">
+        <a href="{{ .RelPermalink }}"><h3>{{.LinkTitle}}</h3></a>
+        <p>{{.Summary}} </p>
+        {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">Read more...</a>
+        {{ end }}
+        
+    </div>  
+
+    {{end}}
+
+
+
+</div>
+
+
+{{end}}

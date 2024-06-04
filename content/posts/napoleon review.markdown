@@ -1,6 +1,6 @@
 +++
 title = "'Napoleon' (dir. Ridley Scott) Review"
-author = "Jacobus"
+author = "Jacob"
 date = 2024-04-04
 categories = "Feature"
 +++

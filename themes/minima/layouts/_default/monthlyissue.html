@@ -1,11 +1,15 @@
 {{ define "main" }}
 
+{{ $styles := resources.Get "css/monthlyissue.css" }}
+
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
 <div class="item">
     <h1>{{ .Title }}</h1>
-    <section>
+    <section class="grid-container">
         {{ with .Resources.ByType "image" }}
             {{range . }}
-                <img src="{{ .RelPermalink }}">
+                <img class="grid" src="{{ .RelPermalink }}">
             {{ end }}
 
         {{ end }}
