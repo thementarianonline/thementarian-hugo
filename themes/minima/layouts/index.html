@@ -5,7 +5,7 @@
     <div class="latest-posts">
         <h2>Latest posts</h2>
         <ul class="post-ul">
-            {{range where .Site.RegularPages "Type" "posts"}}
+            {{range first 5 (where .Site.RegularPages "Type" "posts")}}
                 <li class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                 <li>{{ time.Format "2 January 2006" .Date }}</li>
                 <br>
