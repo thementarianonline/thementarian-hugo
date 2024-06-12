@@ -9,7 +9,7 @@
      grid-template-columns: repeat(2, minmax(0, 1fr));
      overflow: hidden;
      gap: var(--gap);
-  }
+}
   
   .grid-item {
      position: relative;
@@ -35,7 +35,6 @@
     block-size: 100vh;
     inset-inline-start: calc(var(--line-offset) * -1);
   }
-
 
 img {
     width: 251px;

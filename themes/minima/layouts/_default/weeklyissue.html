@@ -4,6 +4,18 @@
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
 <h1>{{.Title}}</h1>
+<p>{{ time.Format "2 January 2006" .Date }}</p>
+
+<div class="front-cover">
+    {{ $image := .Resources.GetMatch "editorial.jpg" }}
+    {{ with $image }}
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+    {{ end }}
+</div>
+
+<br>
+
+<h2>This week's highlights</h2>
 
 <div class="grid-container">
 
@@ -18,8 +30,6 @@
     </div>  
 
     {{end}}
-
-
 
 </div>
 
