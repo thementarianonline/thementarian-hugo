@@ -7,7 +7,7 @@ url = "/posts/redandwhiteday2024"
 description = "On the seventeenth of August, 1945, Indonesia reclaimed its independence from our Dutch and Japanese oppressors, establishing ourselves as a sovereign nation. "
 +++
 
-Every year since on the anniversary of that fateful day, millions around the country celebrate this triumph in their own special ways. For us Mentarians, our way of celebrating our independence is by hosting Red and White day, a celebration of the genesis of our Republic. On this day, four teams each named after a historical Indonesian state, Majapahit, Kutai, Sriwijaya, and Mataram, compete against each other in a wide variety of exciting games in order to seize the title of the champion. 
+On the seventeenth of August, 1945, Indonesia reclaimed its independence from our Dutch and Japanese oppressors, establishing ourselves as a sovereign nation. Every year since on the anniversary of that fateful day, millions around the country celebrate this triumph in their own special ways. For us Mentarians, our way of celebrating our independence is by hosting Red and White day, a celebration of the genesis of our Republic. On this day, four teams each named after a historical Indonesian state, Majapahit, Kutai, Sriwijaya, and Mataram, compete against each other in a wide variety of exciting games in order to seize the title of the champion. 
 
 This year’s Red and White day, held on the fifteenth of August, started off with an opening ceremony under the sun. Each team showed their pride and determination through their very own chants or yel-yels to hype themselves up and intimidate their opposition. Accompanied by claps, cheers, and drums, each team wanted to showcase their motivation and ambition for the day.
 
