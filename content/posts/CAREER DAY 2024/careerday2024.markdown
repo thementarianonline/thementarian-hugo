@@ -3,7 +3,7 @@ title = "Career Day: An Exploration of New Heights"
 date = 2024-09-23
 author = "Charleen Julian Bun 9D & Chrystal Chantallice 9D"
 categories = "school"
-url = "/posts/carreerday2024"
+url = "/posts/careerday2024"
 description = "The 21st of August was a truly special day, where ninth-grade Mentarians were able to discover and explore a variety of interesting career paths, gain new knowledge, insights and inspiration and participate in many exciting hands-on activities."
 +++
 
