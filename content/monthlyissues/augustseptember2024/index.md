@@ -1,6 +1,6 @@
 +++
-title = 'December-February 2024'
-date = '2024-02-01'
+title = 'August-September 2024'
+date = '2024-08-31'
 draft = false
 layout = 'monthlyissue'
 volume = 1
