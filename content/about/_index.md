@@ -16,6 +16,3 @@ To build a reputable news source based on excellence and integrity by promoting 
 - Share the world beyond Mentari through journalistic excellence to create an educated and knowledgeable school community
 - Gain and act on the trust of our readers by reporting news objectively and accurately
 - Reflect a diverse range of views on major issues
-
-## Contact
-For any enquiries, contact us through email, thementarianonline@gmail.com
