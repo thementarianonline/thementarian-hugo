@@ -1,9 +1,7 @@
 +++
 title = 'Test'
-date = 1 November 2024
+date = 2024-04-04
 author = "Anonymous"
-categories = ["Test"]
-slug = "Test"
 +++
 
 
